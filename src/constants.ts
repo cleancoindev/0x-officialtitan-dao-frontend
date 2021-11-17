@@ -6,11 +6,8 @@ export const BLOCK_RATE_SECONDS = 13.14;
 
 export const TOKEN_DECIMALS = 9;
 
-// TODO (appleseed): verify production graph URL
-export const POOL_GRAPH_URLS = {
-  4: "https://api.thegraph.com/subgraphs/name/pooltogether/rinkeby-v3_4_3",
-  1: "https://api.thegraph.com/subgraphs/name/pooltogether/pooltogether-v3_4_3",
-};
+
+export type Nested = { [key: string]: string };
 
 interface IAddresses {
   [key: number]: { [key: string]: Nested | string };
