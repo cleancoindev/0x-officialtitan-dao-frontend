@@ -41,7 +41,7 @@ function OhmMenu() {
   const isEthereumAPIAvailable = window.ethereum;
 
   const networkID = useSelector(state => {
-    return (state.app && state.app.networkID) || 1;
+    return (state.app && state.app.networkID) || 137;
   });
 
   const SOHM_ADDRESS = addresses[networkID].SOHM_ADDRESS;
