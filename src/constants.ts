@@ -1,4 +1,4 @@
-export const THE_GRAPH_URL = "https://api.thegraph.com/subgraphs/name/takertao2/officialtitandao-graph";
+export const THE_GRAPH_URL = "https://api.thegraph.com/subgraphs/name/drondin/olympus-graph";
 export const EPOCH_INTERVAL = 2200;
 
 // NOTE could get this from an outside source since it changes slightly over time
