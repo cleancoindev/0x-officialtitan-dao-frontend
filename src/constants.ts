@@ -13,7 +13,7 @@ export const POOL_GRAPH_URLS = {
 };
 
 interface IAddresses {
-  [key: number]: { [key: string]: string };
+  [key: number]: { [key: string]: Nested | string };
 }
 
 export const addresses: IAddresses = {
