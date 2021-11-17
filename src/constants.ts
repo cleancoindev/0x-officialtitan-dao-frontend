@@ -6,7 +6,6 @@ export const BLOCK_RATE_SECONDS = 13.14;
 
 export const TOKEN_DECIMALS = 9;
 
-
 export type Nested = { [key: string]: string };
 
 interface IAddresses {
