@@ -27,7 +27,7 @@ export const addresses: IAddresses = {
     WSOHM_ADDRESS: "0x54F2f18771D24149c066ce9Cbc97C0c3BE64E9b1",
     DISTRIBUTOR_ADDRESS: "0x8AD607D677cFe573CeA9089EE860006526D38835",
     BONDINGCALC_ADDRESS: "0xac268f9B84d576909B47C2fF376baFDB98CE6aE4",
-//    CIRCULATING_SUPPLY_ADDRESS: "0x???",
+  //    CIRCULATING_SUPPLY_ADDRESS: "0x???",
     TREASURY_ADDRESS: "0x2486870843B792C1eef698C887C909F3eD66B845",
   },
   //1: {
@@ -45,12 +45,12 @@ export const addresses: IAddresses = {
   //  BONDINGCALC_ADDRESS: "0xcaaa6a2d4b26067a391e7b7d65c16bb2d5fa571a",
   //  CIRCULATING_SUPPLY_ADDRESS: "0x0efff9199aa1ac3c3e34e957567c1be8bf295034",
   //  TREASURY_ADDRESS: "0x31f8cc382c9898b273eff4e0b7626a6987c846e8",
-    // TODO (appleseed-lusd): swap this out
+  //  TODO (appleseed-lusd): swap this out
   //  PICKLE_OHM_LUSD_ADDRESS: "0xc3d03e4f041fd4cd388c549ee2a29a9e5075882f",
   //  REDEEM_HELPER_ADDRESS: "0xE1e83825613DE12E8F0502Da939523558f0B819E",
   //  FUSE_6_SOHM: "0x59bd6774c22486d9f4fab2d448dce4f892a9ae25", // Tetranode's Locker
   //  FUSE_18_SOHM: "0x6eDa4b59BaC787933A4A21b65672539ceF6ec97b", // Olympus Pool Party
-    // TODO (appleseed-33t): These are currently all rinkeby addresses (change before prod launch)
+  //  TODO (appleseed-33t): These are currently all rinkeby addresses (change before prod launch)
   //  PT_UNUSED_POOL_ADDRESS: "0xF89e906632b1B1C036A92B56d3409347735C5D4c", // contract to get current prize amount, deposit/withdraw on pool
   //  PT_TOKEN_ADDRESS: "0x0a2d026bacc573a8b5a2b049f956bdf8e5256cfd", // 33T token address, taken from `ticket` function on PRIZE_STRATEGY_ADDRESS
   //  PT_UNUSED_AWARD_ADDRESS: "0x54c18FB75f946424AF15221414B15a814Ca1EFD0", // contract to start/complete award
