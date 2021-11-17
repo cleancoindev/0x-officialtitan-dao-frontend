@@ -106,7 +106,7 @@ function OhmMenu() {
                       size="large"
                       variant="contained"
                       color="secondary"
-                      onClick={addTokenToWallet("TITAN2", OHM_ADDRESS)}
+                      onClick={addTokenToWallet("OHM", OHM_ADDRESS)}
                     >
                       <Typography>OHM</Typography>
                     </Button>
@@ -114,7 +114,7 @@ function OhmMenu() {
                       variant="contained"
                       size="large"
                       color="secondary"
-                      onClick={addTokenToWallet("sTitan", SOHM_ADDRESS)}
+                      onClick={addTokenToWallet("sOHM", SOHM_ADDRESS)}
                     >
                       <Typography>sOHM</Typography>
                     </Button>
