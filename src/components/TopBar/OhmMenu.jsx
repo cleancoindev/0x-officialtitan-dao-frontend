@@ -14,7 +14,7 @@ import SOhmImg from "src/assets/tokens/token_sOHM.svg";
 const addTokenToWallet = (tokenSymbol, tokenAddress) => async () => {
   if (window.ethereum) {
     const host = window.location.origin;
-    const tokenPath = tokenSymbol === "OHM" ? OhmImg : SOhmImg;
+    const tokenPath = tokenSymbol === "TITAN2" ? OhmImg : SOhmImg;
     const imageURL = `${host}/${tokenPath}`;
 
     try {
